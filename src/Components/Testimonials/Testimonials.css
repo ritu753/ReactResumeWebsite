@@ -1,0 +1,24 @@
+.comment::before{
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #fff;
+    position: absolute;
+    left: 50%;
+    top: -10px;
+    -webkit-transform: translateX(-7.5px);
+    -ms-transform: translateX(-7.5px);
+    transform: translateX(-7.5px);
+}
+.swiper-pagination-bullets {
+   opacity: 1 !important;
+   border-radius: 0.3rem !important;
+
+}
+.swiper-pagination-bullet-active{
+  width: 1.25rem !important;
+  background-color: #FF4C60 !important;
+  border-radius: 0.3rem !important;
+}

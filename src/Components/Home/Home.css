@@ -1,0 +1,47 @@
+.shape{
+  position: absolute;
+}
+.s1 {
+  left: 10%;
+  top: 10%;
+}
+.s2 {
+  left: 25%;
+  top: 30%;
+}
+.s3 {
+  left: 15%;
+  bottom: 30%;
+}
+.s4 {
+  left: 10%;
+  bottom: 10%;
+}
+.s5 {
+  left: 45%;
+  top: 10%;
+}
+.s6 {
+  left: 40%;
+  bottom: 10%;
+}
+.s7 {
+  top: 20%;
+  right: 30%;
+}
+.s8 {
+  right: 30%;
+  bottom: 20%;
+}
+.s9 {
+  right: 10%;
+  top: 10%;
+}
+.s10 {
+  top: 45%;
+  right: 20%;
+}
+.s11 {
+  bottom: 10%;
+  right: 10%;
+}

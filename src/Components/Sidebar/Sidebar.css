@@ -1,0 +1,20 @@
+.mob-nav{
+  display: none;
+}
+
+@media  screen and (max-width:991px) {
+  aside{
+    left:-100% !important;
+    transition: 0.5s all;
+  }
+  aside.nav-active{
+    left: 0 !important;
+  }
+  .mob-nav{
+    display: flex;
+    transition: 0.5s all;
+  } 
+  .mob-nav.nav-active{
+    left:250px;
+  } 
+}

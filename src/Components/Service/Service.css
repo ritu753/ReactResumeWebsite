@@ -1,0 +1,26 @@
+.sevice-info:nth-child(1){
+  background-color: #775ffd;
+  color: #fff;
+   
+}
+.sevice-info:nth-child(2){
+  background-color: #FF4C60;
+   
+}
+.sevice-info:nth-child(3){
+  background-color: #FFD15C;
+  color:#fff;
+   
+}
+.sevice-info{
+  transition: 0.5s all;
+}
+.sevice-info:hover{
+  transform: translateY(-20px);
+}
+
+@media only screen and (max-width: 767px) {
+  .sevice-info{
+    width: 100% !important;
+  }
+}

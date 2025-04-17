@@ -1,0 +1,16 @@
+.cnt-info {
+  background: url('../../assets/map.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 280px;
+}
+
+@media only screen and (max-width: 767px) {
+  .cnt-mail,
+  .cnt-name{
+    width: 100% !important;
+  }
+  .cnt-mail input{
+    margin-left: 0px !important;
+  }
+}

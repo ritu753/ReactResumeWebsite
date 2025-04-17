@@ -1,0 +1,39 @@
+@media only screen and (min-width: 768px) {
+  .abt-content-container{
+    position: relative;
+  }
+  .abt-content-container::before {
+      content: "";
+      width: 0;
+      height: 0;
+      border-top: 10px solid transparent;
+      border-bottom: 10px solid transparent;
+      border-right: 15px solid #fff;
+      position: absolute;
+      left:-15px;
+      top: 20%;
+      z-index: 1;
+  }
+
+}
+@media only screen and (max-width: 767px) {
+  .abt-container{
+    flex-direction: column;
+    align-items: center;
+  }
+  .abt-content{
+    flex-direction: column;
+  }
+  .abt-img{
+    margin-right: 0 !important;
+    margin-bottom: 1rem;
+  }
+  .abt-info,
+  .skills{
+    width: 100% !important;
+    margin-bottom: 1rem;
+  }
+  .acheivement {
+    justify-content: center !important;
+  }
+}
